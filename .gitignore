@@ -1,0 +1,22 @@
+
+# IDE files
+.idea
+*sublime*
+*.swp
+
+# Misc
+*~
+*.pyc
+*.log
+
+# Libraries
+node_modules
+
+# Audio files
+
+# Build artifacts
+bundled.js
+public
+
+
+
