@@ -41,7 +41,7 @@ var Blog = React.createClass({
 		return <div>
 			<BlogHeader />
 			{this.state.posts.map(function(post) {
-					return <Post postData={post} whoa={"ffffuuuuck"} />
+					return <Post postData={post} />
 				})}
 		</div>
 	}
