@@ -6,9 +6,7 @@ var Footer = React.createClass({
     render: function() {
         return (
             <div className="header text-center">
-                <hr className="hr-bottom" />
-                <hr className="hr-bottom" />
-                <h1 className="glyphicon glyphicon-cloud"></h1>
+                <hr className="hr-bottom" />                                                            
             </div>
             );
     }

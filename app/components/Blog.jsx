@@ -15,6 +15,20 @@ var Post = React.createClass({
 	}
 })
 
+
+var BlogHeader = React.createClass({
+
+	render: function() {
+		return (
+            <div className="header">
+            	<hr className="hr-bottom" /> 
+            	<h3>a place for tiny problem solving</h3>
+                <hr className="hr-bottom" />                                                             
+            </div>
+            );
+	}
+});
+
 var Blog = React.createClass({
 
 	getInitialState: function() {
@@ -25,7 +39,7 @@ var Blog = React.createClass({
 	render: function() {
 		console.log("my state is", this.state.posts);
 		return <div>
-			<h1>aHelium Blog</h1>
+			<BlogHeader />
 			{this.state.posts.map(function(post) {
 					return <Post postData={post} whoa={"ffffuuuuck"} />
 				})}
